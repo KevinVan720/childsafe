@@ -10,6 +10,7 @@ The following are more detailed descriptions and instructions of specific functi
 
 * * *
 
+<br /><br />
 <img src="project_resources/figures/Login.png" width="30%" height="32%">
 <img src="project_resources/figures/SignUp.png" width="30%" height="32%">
 <img src="project_resources/figures/ResetPasswordActivity.png" width="30%" height="32%"><br /><br />
@@ -27,7 +28,6 @@ On the sign-up page, the user can sign up a new account with a selected role(par
 On the log-in page, the user can log in using their email and password. If the user forgets the password, he/she can click on the "Forget your password?" button on the log-in page. It enables the user to reset the password using their registered email.
 
 <br /><br />
-
 <img src="project_resources/figures/EditProfileFragment.png" width="30%" height="32%">
 <img src="project_resources/figures/SettingsFragment.png" width="30%" height="32%">
 <img src="project_resources/figures/HelpFragment.png" width="30%" height="32%"><br /><br />
@@ -68,6 +68,7 @@ After parent user log in, he/she can see all the bound children information and 
 ### **Police Main Page**
 After police user log in, he/she can see all the lost children on this page. If he/she clicks on one of the children, he will be brought to the GoogleMap page which displays the past track of the lost child. It can also animate the whole track history using time information. 
 
+<br /><br />
 <img src="project_resources/figures/GoogleMapActivity.png" width="30%" height="32%">
 <img src="project_resources/figures/AppDrawer.png" width="30%" height="32%">
 <img src="project_resources/figures/UnlinkChild.png" width="30%" height="32%"><br /><br />
@@ -75,6 +76,7 @@ Fig.4 Google map display lost child's track, app navigation drawer and unlink a 
 
 <br />
 
+<br /><br />
 <img src="project_resources/figures/LoginDark.png" width="30%" height="32%">
 <img src="project_resources/figures/ParentMainActivityDark.png" width="30%" height="32%">
 <img src="project_resources/figures/ParentMainActivityChinese.png" width="30%" height="32%"><br /><br />
