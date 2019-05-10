@@ -10,9 +10,9 @@ The following are more detailed descriptions and instructions of specific functi
 
 * * *
 
-<img src="project_resources/figures/Login.png" width="32%" height="32%">
-<img src="project_resources/figures/SignUp.png" width="32%" height="32%">
-<img src="project_resources/figures/ResetPasswordActivity.png" width="32%" height="32%"><br /><br />
+<img src="project_resources/figures/Login.png" width="30%" height="32%">
+<img src="project_resources/figures/SignUp.png" width="30%" height="32%">
+<img src="project_resources/figures/ResetPasswordActivity.png" width="30%" height="32%"><br /><br />
 Fig.1 Log-in, sign-up and reset password interface <br />
 
 
@@ -28,9 +28,9 @@ On the log-in page, the user can log in using their email and password. If the u
 
 <br /><br />
 
-<img src="project_resources/figures/EditProfileFragment.png" width="32%" height="32%">
-<img src="project_resources/figures/SettingsFragment.png" width="32%" height="32%">
-<img src="project_resources/figures/HelpFragment.png" width="32%" height="32%"><br /><br />
+<img src="project_resources/figures/EditProfileFragment.png" width="30%" height="32%">
+<img src="project_resources/figures/SettingsFragment.png" width="30%" height="32%">
+<img src="project_resources/figures/HelpFragment.png" width="30%" height="32%"><br /><br />
 Fig.2 Edit profile, change settings or read the help page <br />
 
 ### **Edit Profile**
@@ -45,9 +45,9 @@ When the user logs into the app, he/she can click the menu button at the top lef
 When the user logs into the app, he/she can click the menu button at the top left corner, and then click "help". In here, he/she can see the help manual.
 
 <br /><br />
-<img src="project_resources/figures/ChildMainActivity.png" width="32%" height="32%">
-<img src="project_resources/figures/ParentMainActivity.png" width="32%" height="32%">
-<img src="project_resources/figures/PoliceMainActivity.png" width="32%" height="32%"><br /><br />
+<img src="project_resources/figures/ChildMainActivity.png" width="30%" height="32%">
+<img src="project_resources/figures/ParentMainActivity.png" width="30%" height="32%">
+<img src="project_resources/figures/PoliceMainActivity.png" width="30%" height="32%"><br /><br />
 Fig.3 Main page for child, parent and police end <br />
 
 ### **Child Main Page**
@@ -68,16 +68,16 @@ After parent user log in, he/she can see all the bound children information and 
 ### **Police Main Page**
 After police user log in, he/she can see all the lost children on this page. If he/she clicks on one of the children, he will be brought to the GoogleMap page which displays the past track of the lost child. It can also animate the whole track history using time information. 
 
-<img src="project_resources/figures/GoogleMapActivity.png" width="32%" height="32%">
-<img src="project_resources/figures/AppDrawer.png" width="32%" height="32%">
-<img src="project_resources/figures/UnlinkChild.png" width="32%" height="32%"><br /><br />
+<img src="project_resources/figures/GoogleMapActivity.png" width="30%" height="32%">
+<img src="project_resources/figures/AppDrawer.png" width="30%" height="32%">
+<img src="project_resources/figures/UnlinkChild.png" width="30%" height="32%"><br /><br />
 Fig.4 Google map display lost child's track, app navigation drawer and unlink a child step.<br />
 
 <br />
 
-<img src="project_resources/figures/LoginDark.png" width="32%" height="32%">
-<img src="project_resources/figures/ParentMainActivityDark.png" width="32%" height="32%">
-<img src="project_resources/figures/ParentMainActivityChinese.png" width="32%" height="32%"><br /><br />
+<img src="project_resources/figures/LoginDark.png" width="30%" height="32%">
+<img src="project_resources/figures/ParentMainActivityDark.png" width="30%" height="32%">
+<img src="project_resources/figures/ParentMainActivityChinese.png" width="30%" height="32%"><br /><br />
 Fig.5 App behavior under different settings (dark mode, chinese language)<br />
 
 ***
