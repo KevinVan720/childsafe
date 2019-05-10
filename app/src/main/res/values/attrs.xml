@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="nav_bar" format="color" />
+    <attr name="mybackground" format="color" />
+    <attr name="button_color" format="color" />
+    <attr name="button_text_color" format="color" />
+    <attr name="box_background" format="color"/>
+
+    <declare-styleable name="SmartTextView">
+        <attr name="justified" format="boolean"/>
+        <attr name="android:textAllCaps"/>
+        <attr name="android:textStyle"/>
+    </declare-styleable>
+
+</resources>

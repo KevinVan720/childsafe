@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name" translatable="false">ChildSafe</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="send_link">Send Link</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Name</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="start_phone_auth">Start</string>
+    <string name="verify_phone_auth">Verify</string>
+    <string name="resend_phone_auth">Resend</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_verification_code">Verification Code</string>
+    <string name="status_code_sent">Code Sent</string>
+    <string name="status_verification_failed">Verification failed</string>
+    <string name="status_verification_succeeded">Verification succeeded</string>
+    <string name="status_sign_in_failed">Sign-in failed</string>
+
+    <string name="forget_password">Forget your password?</string>
+    <string name="enter_email">Please enter your email:</string>
+    <string name="resend_email">Reset password</string>
+    <string name="back_to_login">Back</string>
+    <string name="reset_email_sent">Reset password email sent!</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="child_name">Unknown</string>
+    <string name="child_status_safe">Safe</string>
+    <string name="child_status_lost">Lost</string>
+    <string name="child_email">Unknown</string>
+
+    <string name="user_intent">USER</string>
+
+    //TODO: change to 911 later
+    <string name="tel_head">tel: </string>
+    <string name="call_phone">+19197488109</string>
+    <string name="call_911">Do you want to call 911?</string>
+
+    <string name="update_child_photo_fail">Failed to update child photo!</string>
+    <string name="claim_child_lost">Claim your child as lost?</string>
+    <string name="claim_child_found">Claim your child as found?</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="child_already_lost">Child is already claimed lost!</string>
+    <string name="child_already_found">Child is already claimed found!</string>
+    <string name="unable_commu_server">Unable to communicate with server. Please try again.</string>
+
+    <string name="link_parent">Link Parent</string>
+    <string name="parent_already_linked"> is already linked to your account!</string>
+    <string name="parent_already_sent">Link invitation already sent. Please inform your parent to accept.</string>
+    <string name="link_sent">Link invitation sent to </string>
+    <string name="check_parent_account">Please link a parent account!</string>
+    <string name="email_not_found">Email not found!</string>
+    <string name="are_you_in_danger">Are you in danger?</string>
+    <string name="yes">YES</string>
+
+    <string name="invalid_name">Invalid name!</string>
+    <string name="please_grant_permission">Please grant the permissions for this app to work properly.</string>
+    <string name="please_verify_email">Please verify your email.</string>
+
+    <string name="required">Required.</string>
+    <string name="verify_email_sent">Verification email sent to </string>
+    <string name="verify_email_not_sent">Failed to send verification email.</string>
+
+    <string name="role_parent">Parent</string>
+    <string name="role_child">Child</string>
+
+    <string name="accept">ACCEPT</string>
+    <string name="decline">DECLINE</string>
+    <string name="edit_name">Edit your name:</string>
+    <string name="cancel">cancel</string>
+    <string name="save">save</string>
+
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="logout">Log out</string>
+
+    <string name="change_dark_mode">Change color mode:</string>
+    <string name="dark_mode">Dark mode</string>
+
+    <string name="notify_child_lost">CHILD IS LOST</string>
+    <string name="notify_child_lost_text">is lost!</string>
+
+    <string name="action_unlink">UNLINK</string>
+    <string name="unlink_confirm">Unlink this child?</string>
+
+    <string name="change_language">Language:</string>
+    <string name="language_prompt">Choose a language</string>
+
+    <string name="change_notification_setting">Change Notification settings:</string>
+    <string name="allow_notification">Allow notifications</string>
+
+    <string name="for_time">for </string>
+    <string name="time_day">d</string>
+    <string name="time_hour">h</string>
+    <string name="time_minute">m</string>
+
+    <string name="marker_time">Time at marker:</string>
+    <string name="no_child_lost">No child is lost!</string>
+    <string name="no_GPS_available">No GPS data available at the moment!</string>
+
+    <string name="help_parent_title">For parent:</string>
+    <string name="help_child_title">For child:</string>
+
+    <string name="help_parent_para1"> \u2022 Let your child launch a bind request and accept it on your phone. Make sure the information you see is correct. After successfully binding your child, you can long press the the child information card to claim your child as lost or found.</string>
+    <string name="help_parent_para2">\u2022 If you decide to unlink your child due to various reasons, left swipe the card and hit unlink.</string>
+    <string name="help_parent_para3">\u2022 Once you claim your child as lost, his/her phone will start sending GPS data to the police every 15 minutes. You will also be prompted to call 911 to provide more information to the police.</string>
+
+    <string name="help_child_para1">\u2022 You can bind your parent using the yellow button with the plus sign.</string>
+    <string name="help_child_para2">\u2022 If you feel unsafe or is in danger, hit the red button with the excalmatory mark. Your parent and the police will be notified and help you.</string>
+    <string name="help_child_para3">\u2022 Your location data will only be sent to the police. Your privacy is crucial to us.</string>
+    <string name="help_child_para4">\u2022 Please make sure that you grant auto-start permission to this app and also turn off battery optimization for it. Otherwise the GPS may not function properly.</string>
+
+</resources>

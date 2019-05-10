@@ -1,0 +1,93 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Theme.ChildSafe" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- enable window content transitions -->
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+        <item name="android:textColorPrimary">@color/textDark</item>
+        <item name="mybackground">@color/grey_100</item>
+        <item name="button_color">@color/colorPrimaryDark</item>
+        <item name="button_text_color">@color/textLight</item>
+        <item name="nav_bar">?attr/colorPrimaryDark</item>
+        <item name="box_background">@color/grey_100</item>
+    </style>
+
+    <style name="Theme.ChildSafeDark" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/DarkcolorPrimary</item>
+        <item name="colorPrimaryDark">@color/DarkcolorPrimaryDark</item>
+        <item name="colorAccent">@color/DarkcolorAccent</item>
+        <!-- enable window content transitions -->
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+        <item name="android:textColorPrimary">@color/textLight</item>
+        <item name="android:textColor">@color/textLight</item>
+        <item name="mybackground">@color/DarkcolorPrimaryDark</item>
+        <item name="button_color">?attr/colorAccent</item>
+        <item name="button_text_color">@color/textDark</item>
+        <item name="nav_bar">?attr/colorPrimaryDark</item>
+        <item name="box_background">@color/DarkcolorPrimaryLight</item>
+    </style>
+
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="Widget.ChildSafe.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextAppearance">@style/TextAppearance.ChildSafe.TextInputLayout.HintText</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="boxStrokeColor">?attr/colorAccent</item>
+        <item name="hintTextColor">?attr/colorAccent</item>
+        <item name="boxBackgroundColor">?attr/box_background</item>
+    </style>
+
+    <style name="TextAppearance.ChildSafe.TextInputLayout.HintText" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+
+    </style>
+
+    <style name="Widget.ChildSafe.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">?attr/button_text_color</item>
+        <item name="backgroundTint">?attr/button_color</item>
+
+    </style>
+
+    <style name="Widget.ChildSafe.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Widget.ChildSafe.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="background">?attr/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/textLight</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="titleTextAppearance">@style/TextAppearance.ChildSafe.Toolbar</item>
+    </style>
+
+    <style name="TextAppearance.ChildSafe.Toolbar" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.ChildSafe.Title" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.ChildSafe.Settings" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:paddingTop">@dimen/grid_spacing_extra_large</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+
+</resources>

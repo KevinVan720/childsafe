@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/lost_time"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="lost for 1 day"
+        android:textColor="@color/textDark"
+        android:textStyle="bold"
+        android:textScaleX="1.02"
+        android:letterSpacing="0.02"
+        android:layout_margin="@dimen/grid_spacing_extra_large"
+        android:padding="@dimen/grid_spacing_small"
+        android:paddingRight="@dimen/grid_spacing_large"
+        android:paddingLeft="@dimen/grid_spacing_large"
+        android:elevation="@dimen/grid_spacing_small"/>
+
+    <TextView
+        android:id="@+id/marker_time"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/lost_time"
+        android:text="time at marker"
+        android:textColor="@color/textDark"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:textScaleX="1.02"
+        android:letterSpacing="0.02"
+        android:layout_marginRight="@dimen/grid_spacing_extra_large"
+        android:layout_marginTop="@dimen/grid_spacing_small"
+        android:padding="@dimen/grid_spacing_small"
+        android:paddingRight="@dimen/grid_spacing_large"
+        android:paddingLeft="@dimen/grid_spacing_large"
+        android:elevation="@dimen/grid_spacing_small"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_redraw"
+        app:fabSize="normal"
+        android:scaleType="center"
+        app:backgroundTint="@color/colorAccent"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_layers"
+        app:backgroundTint="@color/colorAccent"
+        app:fabSize="normal"
+        android:scaleType="center"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_above="@+id/fab"
+        android:layout_alignParentRight="true" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/grid_spacing_small"
+        app:srcCompat="@drawable/ic_arrow_back"
+        app:fabSize="mini"
+        android:scaleType="center"
+        app:backgroundTint="@color/grey_100"
+        android:elevation="@dimen/grid_spacing_small"/>
+
+</RelativeLayout>

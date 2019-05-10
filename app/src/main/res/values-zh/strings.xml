@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">ChildSafe</string>
+
+    <string name="sign_in">登录</string>
+    <string name="create_account">创建账户</string>
+    <string name="send_link">发送链接</string>
+    <string name="sign_out">登出</string>
+    <string name="verify_email">验证邮箱</string>
+    <string name="disconnect">断开连接</string>
+    <string name="loading">加载中…</string>
+    <string name="signed_in">已登录</string>
+    <string name="signed_out">已登出</string>
+    <string name="hint_email">邮箱</string>
+    <string name="hint_password">密码</string>
+    <string name="hint_name">姓名</string>
+    <string name="auth_failed">验证失败</string>
+    <string name="start_phone_auth">开始</string>
+    <string name="verify_phone_auth">验证</string>
+    <string name="resend_phone_auth">重新发送</string>
+    <string name="hint_phone_number">手机号码</string>
+    <string name="hint_verification_code">验证码</string>
+    <string name="status_code_sent">验证码已发送</string>
+    <string name="status_verification_failed">验证失败</string>
+    <string name="status_verification_succeeded">验证成功</string>
+    <string name="status_sign_in_failed">登录失败</string>
+
+    <string name="forget_password">忘记密码？</string>
+    <string name="enter_email">请输入邮箱：</string>
+    <string name="resend_email">重置密码</string>
+    <string name="back_to_login">返回</string>
+    <string name="reset_email_sent">重置密码邮件已发送！</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="user_intent">USER</string>
+    <string name="role_parent">家长</string>
+    <string name="role_child">孩子</string>
+
+    //TODO: change to 911 later
+    <string name="tel_head">tel: </string>
+    <string name="call_phone">+19197488109</string>
+    <string name="call_911">您想拨打911吗？</string>
+
+    <string name="child_name">未知</string>
+    <string name="child_status_safe">安全</string>
+    <string name="child_status_lost">丢失</string>
+    <string name="child_email">未知</string>
+
+    <string name="update_child_photo_fail">更新照片失败</string>
+    <string name="claim_child_lost">您的孩子走丢了吗？</string>
+    <string name="claim_child_found">您的孩子找到了吗？</string>
+    <string name="confirm">确定</string>
+    <string name="child_already_lost">孩子已经处于走失状态！</string>
+    <string name="child_already_found">孩子已经找到！</string>
+    <string name="unable_commu_server">无法与服务器建立连接</string>
+
+    <string name="link_parent">绑定家长</string>
+    <string name="parent_already_linked"> 已经绑定到您的账号！</string>
+    <string name="parent_already_sent">连接请求已发送。请于家长端接受。</string>
+    <string name="link_sent">连接请求发送至 </string>
+    <string name="check_parent_account">请连接一个家长账户！</string>
+    <string name="email_not_found">账户不存在！</string>
+    <string name="are_you_in_danger">你处于危险中么？</string>
+    <string name="yes">是的</string>
+
+    <string name="invalid_name">无效的名字！</string>
+    <string name="please_grant_permission">请授权相应权限保证应用正常工作</string>
+    <string name="please_verify_email">请验证您的邮箱。</string>
+
+    <string name="required">请填写。</string>
+    <string name="verify_email_sent">验证邮件发送至 </string>
+    <string name="verify_email_not_sent">验证邮件发送失败。</string>
+
+    <string name="accept">接受</string>
+    <string name="decline">拒绝</string>
+    <string name="edit_name">编辑你的名字：</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+
+    <string name="home">首页</string>
+    <string name="profile">个人信息</string>
+    <string name="settings">设置</string>
+    <string name="help">帮助</string>
+    <string name="logout">登出</string>
+
+    <string name="change_dark_mode">更改夜间模式：</string>
+    <string name="dark_mode">夜间模式</string>
+
+    <string name="notify_child_lost">孩子走失</string>
+    <string name="notify_child_lost_text">处于走失状态！</string>
+
+    <string name="action_unlink">解除绑定</string>
+    <string name="unlink_confirm">解除绑定孩子吗？</string>
+
+    <string name="change_language">更改语言：</string>
+    <string name="language_prompt">选择一种语言</string>
+
+    <string name="change_notification_setting">更改通知设置：</string>
+    <string name="allow_notification">允许通知</string>
+
+    <string name="for_time">已 </string>
+    <string name="time_day">天</string>
+    <string name="time_hour">小时</string>
+    <string name="time_minute">分钟</string>
+    <string name="marker_time">标记所在时间：</string>
+
+
+    <string name="no_child_lost">没有孩子丢失！</string>
+    <string name="no_GPS_available">暂无GPS数据！</string>
+
+    <string name="help_parent_title">如果您是家长：</string>
+    <string name="help_child_title">如果你是孩子：</string>
+
+    <string name="help_parent_para1"> \u2022 让您的孩子发送一个绑定请求， 然后您可以在您的手机客户端接受该请求。 请确认您看到的信息是正确的。 在成功绑定您的孩子之后， 您可以长按孩子的信息名片来声称您的孩子状态为丢失或者找回。</string>
+    <string name="help_parent_para2">\u2022 如果您因为种种原因而决定解绑您的孩子， 请左滑孩子的名片卡， 然后点击取消绑定</string>
+    <string name="help_parent_para3">\u2022 一旦您声称您的孩子丢失了， 孩子的手机将开始发送GPS数据给警察端， 并且每15分钟都会再发送一次地理位置信息给警察端。 您的手机也将会拨打911， 并且会提示您给警察提供更多的信息。</string>
+
+    <string name="help_child_para1">\u2022 您可以通过按有黄色加号的按钮， 来绑定您的父母。</string>
+    <string name="help_child_para2">\u2022 如果您感到自己不安全或处于危险中， 请按红色感叹号按钮。 您的状态将会被改成丢失， 您的父母和警察将会收到您的通知并且帮助您。</string>
+    <string name="help_child_para3">\u2022 当您的状态为丢失时， 您的地理位置仅会被送给警察端。 保护您的隐私对我们来说非常重要。</string>
+    <string name="help_child_para4">\u2022 请确保您授予紧急情况时自动发送地理位功能权限， 并且在电池电量优化功能里， 关闭针对此功能的电池优化。 否则， GPS传送机制将不能正常工作。</string>
+
+</resources>

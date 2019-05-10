@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/DarkcolorPrimary">
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/snackbar_text"
+        android:hint="@string/hint_email"
+        android:textColor="?attr/colorAccent"
+        android:backgroundTint="?attr/colorAccent"
+        android:textColorHint="?attr/colorAccent"
+        android:inputType="textEmailAddress"
+        android:paddingTop="@dimen/design_snackbar_padding_vertical"
+        android:paddingBottom="@dimen/design_snackbar_padding_vertical"
+        android:paddingLeft="@dimen/design_snackbar_padding_horizontal"
+        android:paddingRight="@dimen/design_snackbar_padding_horizontal"/>
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/snackbar_action"
+        style="?attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right"
+        android:layout_marginStart="@dimen/design_snackbar_extra_spacing_horizontal"
+        android:layout_marginLeft="@dimen/design_snackbar_extra_spacing_horizontal"
+        android:paddingLeft="@dimen/design_snackbar_padding_horizontal"
+        android:paddingTop="@dimen/design_snackbar_padding_vertical"
+        android:paddingRight="@dimen/design_snackbar_padding_horizontal"
+        android:paddingBottom="@dimen/design_snackbar_padding_vertical"
+        android:textColor="?attr/colorAccent" />
+
+</LinearLayout>
